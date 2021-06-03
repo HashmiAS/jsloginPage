@@ -1,0 +1,51 @@
+High level language - has lots of abstraction
+
+runs without compiler - scripting language 
+
+client side programming - front end - runs in browser directly
+
+**Documenttaion: [https://developer.mozilla.org/en-US/docs/Web/API/Console](https://developer.mozilla.org/en-US/docs/Web/API/Console)**
+
+**Notes:**
+
+Always use const for variables unless you know you are gonna reassign the value later
+
+Console.log(typeof —) is used to check variable type
+
+Allows multiple datatypes in same array
+
+For concatenation use `` and write variable in ${}
+
+=== checks data types and value
+
+== checks only value
+
+**Important methods**
+
+s.split- delimiter to create array values
+
+const a = [];
+
+a.push()- add to end of array
+
+a.unshift()- add to beginning of array
+
+a.pop()- delete last element
+
+JSON.stringify(variable)- converts to JSOn format to send to server
+
+.forEach- loop through array
+
+.map- create array from existing array
+
+.filter-create array from condition
+
+.prototype- remove direct methods from appearing in functions
+
+**DOM methods**
+
+document.getElementById()-gets element of mentioned id
+
+document.querySelector()-selects first mentioned in order
+
+document.querySelectorAll()-selects all mentioned
